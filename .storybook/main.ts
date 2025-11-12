@@ -14,7 +14,7 @@ const config: StorybookConfig = {
     name: "@storybook/react-vite",
     options: {},
   },
-  stories: ["../components/**/*.stories.@(js|jsx|ts|tsx|mdx)"],
+  stories: ["../../components/**/*.stories.@(js|jsx|ts|tsx|mdx)"],
   addons: [
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
@@ -49,3 +49,4 @@ const config: StorybookConfig = {
 };
 
 export default config;
+
