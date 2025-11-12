@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "types": ["node", "react", "react-dom"],
+    "paths": {
+      "@sitecore-content-sdk/nextjs": ["mocks/sitecore-content-sdk.tsx"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

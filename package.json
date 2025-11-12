@@ -1,0 +1,48 @@
+{
+  "name": "next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "endStory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@sitecore-content-sdk/nextjs": "^1.2.0",
+    "@tailwindcss/postcss": "^4.1.16",
+    "lucide-react": "^0.552.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "4.1.2",
+    "@storybook/addon-a11y": "10.0.2",
+    "@storybook/addon-docs": "10.0.2",
+    "@storybook/addon-mcp": "^0.1.3",
+    "@storybook/addon-viewport": "^9.0.8",
+    "@storybook/addon-vitest": "10.0.2",
+    "@storybook/react": "^10.0.3",
+    "@storybook/react-vite": "^10.0.2",
+    "@tailwindcss/cli": "^4.1.16",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitest/browser-playwright": "^4.0.6",
+    "@vitest/coverage-v8": "^4.0.6",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.12",
+    "playwright": "^1.56.1",
+    "postcss": "^8.5.6",
+    "process": "^0.11.10",
+    "storybook": "^10.0.2",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^4.0.6"
+  }
+}
